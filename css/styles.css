@@ -252,6 +252,7 @@ button {
     position: relative;
     padding-top: 72px;
     padding-bottom: 40px;
+    padding-right: 24px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -273,7 +274,6 @@ button {
     top: 24px;
     right: 24px;
     background-color: #f4f4fd;
-    ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -330,13 +330,16 @@ button {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.contacts-mob-menu {
+    margin-bottom: 48px;
+}
+
 .contacts-mob-menu-list {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
     gap: 24px;
-    margin-bottom: 48px;
 }
 
 .contacts-mob-menu-link {
@@ -356,14 +359,13 @@ button {
 
 .social-mob-menu-networks {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: row;
-    margin-top: 8px;
-    gap: 24px;
+    gap: 40px;
 }
 
-.link {
+.social-mob-menu-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -420,7 +422,7 @@ button {
 .title-text {
     max-width: 216px;
     margin: 0 auto;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -468,7 +470,7 @@ button {
 
     .title-text {
         max-width: 496px;
-        padding-bottom: 36px;
+        margin-bottom: 36px;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
@@ -477,7 +479,7 @@ button {
 
 @media screen and (min-width: 1158px) {
     .title {
-        max-width: 1158px;
+        max-width: 1440px;
         padding: 188px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -493,7 +495,7 @@ button {
     }
 
     .title-text {
-        padding-bottom: 36px;
+        margin-bottom: 48px;
     }
 }
 
@@ -863,8 +865,13 @@ button {
 }
 
 .subtitle-text {
-    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .subtitle-items {
@@ -939,10 +946,6 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-    .user {
-        padding: 96px 108px;
-    }
-
     .subtitle-list-user {
         max-width: 552px;
         gap: 64px 24px;
@@ -976,8 +979,13 @@ button {
 }
 
 .gallery-subtitle {
-    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .gallery-list {
@@ -1175,7 +1183,7 @@ button {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 4px;
-    width: 264px;
+    width: 288px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding-left: 16px;
@@ -1214,9 +1222,8 @@ button {
 
 @media screen and (min-width: 768px) {
     .footer-container {
-        max-width: 496px;
-        justify-content: center;
-        padding: 0;
+        max-width: 584px;
+        justify-content: flex-start;
         gap: 72px 24px;
     }
 
@@ -1240,6 +1247,10 @@ button {
     .subscribe-text {
         text-align: left;
     }
+
+    .footer-input {
+        width: 264px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -1248,7 +1259,7 @@ button {
     }
 
     .footer-container {
-        max-width: 1128px;
+        max-width: 1158px;
         flex-wrap: nowrap;
         gap: 0;
     }

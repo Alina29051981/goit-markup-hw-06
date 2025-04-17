@@ -59,7 +59,7 @@
                         <li class="nav-item"><a class="nav-menu-link" href="">Contacts</a></li>
                     </ul>
                 </nav>
-                <address>
+                <address class="contacts-mob-menu">
                     <ul class="contacts-mob-menu-list">
                         <li class="contacts-item"><a class="contacts-mob-menu-link menu-mob-ref"
                                 href="tel:+110001111111">+11 (000)
@@ -70,39 +70,38 @@
                         </li>
                     </ul>
                 </address>
-                <div>
-                    <ul class="social-mob-menu-networks">
-                        <li class="social-mob-menu-list">
-                            <a href="https://www.instagram.com/" target="_blank" class="link">
-                                <svg class="icon" width="16" height="16">
-                                    <use href="./images/icons.svg#icon-instagram"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-mob-menu-list">
-                            <a href="https://www.twitter.com/" target="_blank" class="link">
-                                <svg class="icon" width="16" height="16">
-                                    <use href="./images/icons.svg#icon-twitter"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-mob-menu-list">
-                            <a href="https://www.facebook.com/" target="_blank" class="link">
-                                <svg class="icon" width="16" height="16">
-                                    <use href="./images/icons.svg#icon-facebook"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="social-mob-menu-list">
-                            <a href="https://www.linkedin.com/" target="_blank" class="link">
-                                <svg class="icon" width="16" height="16">
-                                    <use href="./images/icons.svg#icon-linkedin"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <ul class="social-mob-menu-networks">
+                    <li class="social-mob-menu-list">
+                        <a href="https://www.instagram.com/" target="_blank" class="social-mob-menu-link">
+                            <svg class="icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-mob-menu-list">
+                        <a href="https://www.twitter.com/" target="_blank" class="social-mob-menu-link">
+                            <svg class="icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-mob-menu-list">
+                        <a href="https://www.facebook.com/" target="_blank" class="social-mob-menu-link">
+                            <svg class="icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-mob-menu-list">
+                        <a href="https://www.linkedin.com/" target="_blank" class="social-mob-menu-link">
+                            <svg class="icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
+        </div>
         </div>
     </header>
     <main class="page-main">
@@ -173,15 +172,8 @@
                 <h2 class="subtitle-text">Our Team</h2>
                 <ul class="subtitle-list-user">
                     <li class="subtitle-items">
-                        <picture>
-                            <source srcset="./images/team-card1.jpg 1x, ./images/team-card1-2x.jpg 2x"
-                                media="(max-width: 320px)" />
-                            <source srcset="./images/team-card1.jpg 1x, ./images/team-card1-2x.jpg 2x"
-                                media="(min-width: 768px)" />
-                            <source srcset="./images/team-card1.jpg 1x, ./images/team-card1-2x.jpg 2x"
-                                media="(min-width: 1158px)" />
-                            <img class="user-img" alt=JPG src="./images/team-card1.jpg" width="264">
-                        </picture>
+                        <img class="user-img" alt=JPG src="./images/team-card1.jpg" width="264"
+                            srcset="./images/team-card1.jpg 1x, ./images/team-card1-2x.jpg 2x">
                         <div class="user-text">
                             <h3 class="subject-user">Mark Guerrero</h3>
                             <p class="subject-txt">Product Designer</p>
@@ -218,15 +210,8 @@
                         </div>
                     </li>
                     <li class="subtitle-items">
-                        <picture>
-                            <source srcset="./images/team-card2.jpg 1x, ./images/team-card2-2x.jpg 2x"
-                                media="(max-width: 320px)" />
-                            <source srcset="./images/team-card2.jpg 1x, ./images/team-card2-2x.jpg 2x"
-                                media="(min-width: 768px)" />
-                            <source srcset="./images/team-card2.jpg 1x, ./images/team-card2-2x.jpg 2x"
-                                media="(min-width: 1158px)" />
-                            <img class="user-img" alt=JPG src="./images/team-card2.jpg" width="264">
-                        </picture>
+                        <img class="user-img" alt=JPG src="./images/team-card2.jpg" width="264"
+                            srcset="./images/team-card2.jpg 1x, ./images/team-card2-2x.jpg 2x">
                         <div class="user-text">
                             <h3 class="subject-user">Tom Ford</h3>
                             <p class="subject-txt">Frontend Developer</p>
@@ -263,15 +248,8 @@
                         </div>
                     </li>
                     <li class="subtitle-items">
-                        <picture>
-                            <source srcset="./images/team-card3.jpg 1x, ./images/team-card3-2x.jpg 2x"
-                                media="(max-width: 320px)" />
-                            <source srcset="./images/team-card3.jpg 1x, ./images/team-card3-2x.jpg 2x"
-                                media="(min-width: 768px)" />
-                            <source srcset="./images/team-card3.jpg 1x, ./images/team-card3-2x.jpg 2x"
-                                media="(min-width: 1158px)" />
-                            <img class="user-img" alt=JPG src="./images/team-card3.jpg" width="264">
-                        </picture>
+                        <img class="user-img" alt=JPG src="./images/team-card3.jpg" width="264"
+                            srcset="./images/team-card3.jpg 1x, ./images/team-card3-2x.jpg 2x">
                         <div class="user-text">
                             <h3 class="subject-user">Camila Garcia</h3>
                             <p class="subject-txt">Marketing</p>
@@ -308,15 +286,8 @@
                         </div>
                     </li>
                     <li class="subtitle-items">
-                        <picture>
-                            <source srcset="./images/team-card4.jpg 1x, ./images/team-card4-2x.jpg 2x"
-                                media="(max-width: 320px)" />
-                            <source srcset="./images/team-card4.jpg 1x, ./images/team-card4-2x.jpg 2x"
-                                media="(min-width: 768px)" />
-                            <source srcset="./images/team-card4.jpg 1x, ./images/team-card4-2x.jpg 2x"
-                                media="(min-width: 1158px)" />
-                            <img class="user-img" alt=JPG src="./images/team-card4.jpg" width="264">
-                        </picture>
+                        <img class="user-img" alt=JPG src="./images/team-card4.jpg " width="264"
+                            srcset="./images/team-card4.jpg 1x, ./images/team-card4-2x.jpg 2x">
                         <div class="user-text">
                             <h3 class="subject-user">Daniel Wilson</h3>
                             <p class="subject-txt">UI Designer</p>
@@ -362,12 +333,12 @@
                     <li class="gallery-item">
                         <div class="img">
                             <picture>
-                                <source srcset="./images/img-1-mob.jpg 1x, ./images/img-1-mob-2x.jpg 2x"
-                                    media="(max-width: 320px)" />
-                                <source srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x"
-                                    media="(min-width: 768px)" />
                                 <source srcset="./images/img-1.jpg 1x, ./images/img-1-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
+                                <source srcset="./images/img-1-tab.jpg 1x, ./images/img-1-tab-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-1-mob.jpg 1x, ./images/img-1-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
                                 <img class="gallery-img" alt=JPG src="./images/img-1.jpg" width="360">
                             </picture>
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
@@ -383,12 +354,12 @@
                     <li class="gallery-item">
                         <div class="img">
                             <picture>
-                                <source srcset="./images/img-2-mob.jpg 1x, ./images/img-2-mob-2x.jpg 2x"
-                                    media="(max-width: 320px)" />
-                                <source srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x"
-                                    media="(min-width: 768px)" />
                                 <source srcset="./images/img-2.jpg 1x, ./images/img-2-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
+                                <source srcset="./images/img-2-tab.jpg 1x, ./images/img-2-tab-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-2-mob.jpg 1x, ./images/img-2-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
                                 <img class="gallery-img" alt=JPG src="./images/img-2.jpg" width="360">
                             </picture>
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
@@ -404,12 +375,12 @@
                     <li class="gallery-item">
                         <div class="img">
                             <picture>
-                                <source srcset="./images/img-3-mob.jpg 1x, ./images/img-3-mob-2x.jpg 2x"
-                                    media="(max-width: 320px)" />
-                                <source srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x"
-                                    media="(min-width: 768px)" />
                                 <source srcset="./images/img-3.jpg 1x, ./images/img-3-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
+                                <source srcset="./images/img-3-tab.jpg 1x, ./images/img-3-tab-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-3-mob.jpg 1x, ./images/img-3-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
                                 <img class="gallery-img" alt=JPG src="./images/img-3.jpg" width="360">
                             </picture>
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
@@ -425,12 +396,12 @@
                     <li class="gallery-item">
                         <div class="img">
                             <picture>
-                                <source srcset="./images/img-4-mob.jpg 1x, ./images/img-4-mob-2x.jpg 2x"
-                                    media="(max-width: 320px)" />
-                                <source srcset="./images/img-4.jpg 1x, ./images/img-4-2x.jpg 2x"
-                                    media="(min-width: 768px)" />
                                 <source srcset="./images/img-4.jpg 1x, ./images/img-4-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
+                                <source srcset="./images/img-4-tab.jpg 1x, ./images/img-4-tab-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-4-mob.jpg 1x, ./images/img-4-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
                                 <img class="gallery-img" alt=JPG src="./images/img-4.jpg" width="360">
                             </picture>
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
@@ -446,12 +417,12 @@
                     <li class="gallery-item">
                         <div class="img">
                             <picture>
-                                <source srcset="./images/img-5-mob.jpg 1x, ./images/img-5-mob-2x.jpg 2x"
-                                    media="(max-width: 320px)" />
-                                <source srcset="./images/img-5.jpg 1x, ./images/img-5-2x.jpg 2x"
-                                    media="(min-width: 768px)" />
                                 <source srcset="./images/img-5.jpg 1x, ./images/img-5-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
+                                <source srcset="./images/img-5-tab.jpg 1x, ./images/img-5-tab-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-5-mob.jpg 1x, ./images/img-5-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
                                 <img class="gallery-img" alt=JPG src="./images/img-5.jpg" width="360">
                             </picture>
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·
@@ -467,12 +438,12 @@
                     <li class="gallery-item">
                         <div class="img">
                             <picture>
-                                <source srcset="./images/img-6-mob.jpg 1x, ./images/img-6-mob-2x.jpg 2x"
-                                    media="(max-width: 320px)" />
-                                <source srcset="./images/img-6.jpg 1x, ./images/img-6-2x.jpg 2x"
-                                    media="(min-width: 768px)" />
                                 <source srcset="./images/img-6.jpg 1x, ./images/img-6-2x.jpg 2x"
                                     media="(min-width: 1158px)" />
+                                <source srcset="./images/img-6-tab.jpg 1x, ./images/img-6-tab-2x.jpg 2x"
+                                    media="(min-width: 768px)" />
+                                <source srcset="./images/img-6-mob.jpg 1x, ./images/img-6-mob-2x.jpg 2x"
+                                    media="(max-width: 767px)" />
                                 <img class="gallery-img" alt=JPG src="./images/img-6.jpg" width="360">
                             </picture>
                             <p class="overlay">14 Stylish and User-Friendly App Design Concepts · Task Manager App ·

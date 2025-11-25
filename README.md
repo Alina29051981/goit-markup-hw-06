@@ -7,8 +7,8 @@ This repository contains HTML/CSS markup. Implements layouts according to the gi
 
 ## Features / Особливості
 - HTML markup follows semantic guidelines.  
-- All images are optimized with [Squoosh](https://squoosh.app) and exported in `.jpg` or `.svg` formats.  
-- CSS is written in a single `styles.css` file.  
+- All images are optimized with Squoosh and exported in `.jpg` or `.svg` formats.  
+- CSS is written in a single styles file.  
 - Modern-normalize stylesheet is included for consistent cross-browser styling.  
 - Responsive layout implemented using Mobile-First approach and Flexbox.  
 - Forms and interactive elements include accessibility attributes.  

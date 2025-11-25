@@ -8,6 +8,8 @@ This repository contains HTML/CSS markup. Implements layouts according to the gi
 
 ![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)
 
+
+![Build Status](https://img.shields.io/github/actions/workflow/status/Alina29051981/goit-markup-hw-06/deploy.yml?branch=main)
 ![Last Commit](https://img.shields.io/github/last-commit/Alina29051981/goit-markup-hw-06)
 ![Repo Size](https://img.shields.io/github/repo-size/Alina29051981/goit-markup-hw-06)
 
